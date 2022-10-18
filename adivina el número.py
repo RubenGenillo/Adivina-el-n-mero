@@ -97,8 +97,7 @@ def gameloop(minimo, maximo, turnos, ayuda):
       valmin = num + 1
       turnos -= 1
  return turnos,valmin, valmax, ganar  
-        
-#checkea si el número es más grande   
+         
 records = {
     1:[],
     2:[],
@@ -125,6 +124,3 @@ while True:
             guardar_datos_sql()
         else: 
              print("perdiste")
-    #Creo objetos para almacenar datos o diccionarios
-
-       
