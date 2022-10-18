@@ -113,7 +113,6 @@ except:
 db.close()
 
 while True:     
-        print(records)
         seleccion_dificultad, ayuda = menu()
         turnos, valmin, valmax, ganar = gameloop(MIN, dificultad[seleccion_dificultad][0], dificultad[seleccion_dificultad][1], ayuda)
         if ganar == True:
